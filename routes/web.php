@@ -16,3 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
+
+Route::get('/siswa/{nama_siswa}', function ($nama_siswa) {
+    return view('siswa', ['nama_siswa' => $nama_siswa]);
+});
+
+Route::view('/admin', 'admin.v_admin');
+
+Route::view('/about', 'v_about', [
+	'nama' => 'Ilham Kurnia',
+	'alamat' => '<h1>Medan</h1>'
+]);

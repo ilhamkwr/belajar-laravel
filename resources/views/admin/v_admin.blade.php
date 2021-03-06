@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Home</title>
+	<title>Ini Index Admin</title>
 </head>
 <body>
-	<h1>Ini halaman home</h1>
+	<h1>Ini index admin</h1>
 
 </body>
 </html>
